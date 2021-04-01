@@ -24,6 +24,8 @@ install:
 - make init
 
 # Install Docs requirements
+#pip install -r requirements/base.txt
+#pip install -r requirements/dev.txt
 
 script:
 # Runs unit tests
