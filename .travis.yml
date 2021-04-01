@@ -38,6 +38,7 @@ matrix:
 install:
 # Install the code requirements
 - make init
+- pip install coverage
 
 # Install Docs requirements
 #pip install -r requirements/base.txt
